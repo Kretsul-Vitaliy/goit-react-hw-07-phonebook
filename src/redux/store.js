@@ -6,7 +6,7 @@ const reducer = {
   phonebook: contactsReducer,
 };
 const logger = createLogger({
-  collapsed: (getState, action, logEntry) => !logEntry.error,
+  collapsed: logEntry => !logEntry.error,
   timestamp: false,
 });
 

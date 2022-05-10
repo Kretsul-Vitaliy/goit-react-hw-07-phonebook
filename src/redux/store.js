@@ -19,7 +19,7 @@ const store = configureStore({
       // },
       serializableCheck: false,
     }).concat(logger),
-  devTools: process.env.NODE_ENV !== "production",
+  // devTools: process.env.NODE_ENV !== "production",
   //   preloadedState,
   //   enhancers: [reduxBatch],
 });
